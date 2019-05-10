@@ -8,7 +8,7 @@ class Conexion{
 
   }
   public function conectar(){
-        $this->conexion=new mysqli("localhost", "root", "", "proyectos");
+        $this->conexion=new mysqli("localhost", "root", "", "jugadores");
       if ($this->conexion->connect_errno) {
         echo "fallo al conectar MySql: (" . $this->conexion->connect_errno . ") " . $this->conexion->connect_error;
         }
