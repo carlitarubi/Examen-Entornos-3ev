@@ -1,3 +1,7 @@
+<?php
+require "../src/Conexion.php";
+
+ ?>
         <!DOCTYPE html>
         <html>
         <head>
@@ -29,6 +33,8 @@
             <div id="numOculto2"  class="estilo" style='display:none;'>Este campo debe ser un Numero</div>
           <br>
           <input type="submit" name="" value="Enviar" onclick="return comp(); window.location.href='PONER ESTO!!!!'"></input>
+          <script type="text/javascript" src="js.js">
+          </script>
         </form>
         </body>
         </html>
