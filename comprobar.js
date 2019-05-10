@@ -1,9 +1,9 @@
 function comp() {
   let nombre=document.getElementById('nombre').value;
   let apellidos=document.getElementById('apellidos').value;
-  let edad=document.getElementById('equipo').value;
-  let curso=document.getElementById('edad').value;
-  let curso=document.getElementById('NCanastas').value;
+  let equipo=document.getElementById('equipo').value;
+  let edad=document.getElementById('edad').value;
+  let canastas=document.getElementById('NCanastas').value;
   var error=true;
   document.getElementById('nombreOculto').style.display = 'none';
   document.getElementById('apellidoOculto').style.display = 'none';
