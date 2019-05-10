@@ -8,7 +8,7 @@ require "../src/Conexion.php";
         	<title></title>
         </head>
         <body>
-          <script type="text/javascript" src="comprobar.js"></script>
+          <script type="text/javascript" src="../comprobar.js"></script>
         <form class="" action="" method="post" onsubmit="return comprobar();">
           Nombre:
             <p><input type="text" name="nombre" value="" id="nombre" ></p>
