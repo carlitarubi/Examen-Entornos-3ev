@@ -1,3 +1,7 @@
+<?php
+require "./../src/Conexion.php";
+
+ ?>
         <!DOCTYPE html>
         <html>
         <head>
